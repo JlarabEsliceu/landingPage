@@ -14,4 +14,4 @@ if($conn->connect_error){
     die("Connection failed: ". $conn->connect_error);
 }
 
-echo "LA CONEXION HA SIDO UN EXITO";
+//echo "LA CONEXION HA SIDO UN EXITO";
