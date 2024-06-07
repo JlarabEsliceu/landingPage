@@ -4,11 +4,10 @@
 <h1>Contacto</h1>
 <main>
 <section>
-            <h2>Contacto</h2>
-            <form class="formulario" action ="">
-                <fieldset>
-                    <legend>Contactame enviando tus datos</legend>
-                    <div class="contenedor-camos">
+     <form class="formulario" action ="create_contact.php" method="POST">
+            <fieldset>
+               <legend>Contactame enviando tus datos</legend>
+                <div class="contenedor-camos">
                         <div class="campo"> 
                             <div>
                                 <label for="">Nombre:</label>
