@@ -17,9 +17,9 @@
     <div class="bg-secundario">
         <nav class="navegacion-principal">
                 <a href="index.php">Home</a>
-                <a href="contacto.php">Contacto</a>
                 <a href="rutinas.php">Rutinas</a>
                 <a href="entrenamiento.php">Entrenamiento</a>
+                <a href="contacto.php">Contacto</a>
                 <a href="mensajes.php">Mensajes</a>
         </nav>
     </div>
