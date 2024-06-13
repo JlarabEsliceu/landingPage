@@ -224,3 +224,41 @@ p{
     border: none;
     padding: 0.8rem;
 }
+
+/*MENSAJES FORMULARIO*/
+
+.success{
+    background-color: green;
+    color: white;
+}
+
+.mensaje{
+    width: 50%;
+    text-align: center;
+    border-radius: 1rem;
+    border: .3rem solid var(--primario);
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: 5fr 2fr 1fr 2fr 3fr;
+}
+
+/*ESTILO PARA LISTA DE MENSAJES*/
+.cabecera{
+    padding-bottom: 4rem ;
+}
+
+.campoCabecera{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--secundario);
+}
