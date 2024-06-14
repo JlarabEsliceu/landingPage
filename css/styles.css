@@ -224,3 +224,71 @@ p{
     border: none;
     padding: 0.8rem;
 }
+
+/*MENSAJES FORMULARIO*/
+
+.success{
+    background-color: green;
+    color: white;
+}
+
+.mensaje{
+    width: 50%;
+    text-align: center;
+    border-radius: 1rem;
+    border: .3rem solid var(--primario);
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr 2fr 3fr 0.5fr;
+}
+
+/*ESTILO PARA LISTA DE MENSAJES*/
+.cabecera{
+    padding-bottom: 4rem ;
+}
+
+.campoCabecera{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--secundario);
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0.5px solid black;
+}
+.campo{
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+
+.fila.impar{
+    background-color: rgb(231, 231, 188);
+}
+
+.fila.par{
+    background-color: rgb(194, 221, 224);
+}
+.informacio{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+
+
+}
+
+.llegir{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: var(--secundario);
+    
+}
