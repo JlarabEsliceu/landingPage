@@ -278,3 +278,17 @@ p{
 .fila.par{
     background-color: rgb(194, 221, 224);
 }
+.informacio{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+
+
+}
+
+.llegir{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: var(--secundario);
+    
+}

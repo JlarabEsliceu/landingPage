@@ -9,5 +9,5 @@ if ($_SERVER["REQUEST_METHOD"] == "GET"){
     $stmt->bind_param("i", $id);
     $result = $stmt->execute();
 
-    header("Location: mensajes.php?status=success&msg=" .$msg);
+    header("Location: read.php?status=success&msg=" .$msg);
 } 

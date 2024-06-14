@@ -20,7 +20,7 @@
                 <a href="rutinas.php">Rutinas</a>
                 <a href="entrenamiento.php">Entrenamiento</a>
                 <a href="contacto.php">Contacto</a>
-                <a href="mensajes.php">Mensajes</a>
+                <a href="read.php">Mensajes</a>
         </nav>
     </div>
   

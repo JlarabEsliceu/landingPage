@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     echo "TELEFONO: " .$telefono. "<br>";
     echo "CORREO: " .$correo. "<br>";
     echo "mensaje: " .$mensaje. "<br>";
-    $sql="INSERT INTO contactos (nombre,telefono,correo,mensaje) VALUES (?,?,?,?)";
+    $sql="SELECT * FROM contactos WHERE nombre=?";
     echo $sql. "<br>";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssss", $nombre, $telefono, $correo, $mensaje);
